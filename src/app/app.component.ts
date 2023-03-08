@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angulartutorial2';
+
+  firstName="smith"
+  lastName ="Zhang"
+  employeeFullName=""
+
+  printFullName(data:string)
+  {
+ this.employeeFullName = data;
+  }
 }
