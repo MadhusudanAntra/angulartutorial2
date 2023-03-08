@@ -1,0 +1,13 @@
+parent component 
+    child component
+
+
+
+communication between components (parent and child)
+
+use input and output properties
+
+to send data from parent to child we need to use input property/decorator
+
+to send data from child to parent we need to use output decorator/event 
+    if child is emitting an event then the parent component must have an event handler
